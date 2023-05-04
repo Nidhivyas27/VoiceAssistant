@@ -1,0 +1,385 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "congo",
+      "patterns": [" I'm getting married soon.", " I'm getting closer to my goal.", "I am graduated from college", " I am landed a new job", "I got engaged",
+    "I won an award", "achieved a personal goal", "I succeed my dream", "I had a new baby", "got promoted"],
+      "responses": ["Congratulations! You've officially leveled up in the game of life.", "Well done, you magnificent human being! You're really crushing it.", "Congrats! You're now officially a certified expert in whatever it is you just did.",
+    "Congratulations on being awesome. It's a tough job, but someone's got to do it."]
+    },
+    {
+      "tag": "night",
+      "patterns": ["good night", "sleep tight", "going for bed", "getting ready for bed"],
+      "responses": ["Good night\nSweet Dreams", "Sweet dreams! May you have a restful and peaceful night.",
+       "Sleep tight and don't let the bed bugs bite! Have a great night.", "Good night! Wishing you a night filled with rest and rejuvenation.",
+      "Good night, sleep well and wake up feeling ready to conquer the world!", "Don't forget to count your blessings before you go to sleep. Have a wonderful night."]
+    },
+    {
+      "tag": "confusion",
+      "patterns": ["I'm getting confused", "somethings are confusing me", "confused between", "life is full of confusion", "confused", "confuse", "confusing"],
+      "responses": ["Well, you're in good company. Confusion is my middle name!", "Confused? Just remember, lefty loosey, righty tighty. That should clear things up!!", 
+      "Don't worry, confusion is just the brain's way of saying it needs more coffee", "Confusion is just a sign that you're thinking outside the box. Keep it up",
+    "Confused? I hear the solution to all problems is to eat some chocolate. Want to test that theory?"]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "what is the thime?",
+        "time",
+        "current time",
+        "show me the time",
+        "tell me the time"
+      ],
+      "responses": ["time"
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "tell me the date",
+        "which is the date today",
+        "date",
+        "show me the date",
+        "what's the date?"
+      ],
+      "responses": ["date"
+      ]
+    },
+    {
+      "tag": "day",
+      "patterns": [
+        "which is the day today?",
+        "what's the day?",
+        "day"
+      ],
+      "responses": ["day"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "make me laugh"
+      ],
+      "responses": ["joke"
+      ]
+    },
+    {
+      "tag":"health",
+      "patterns":["how are you","how you","are you fine?","are you good", "what's about you"
+      ],
+      "responses":["Fine.\nHow are you?","Perfect.\nHow are you?","Cool.\nHow are you?","I am feeling blessed!\nHow are you?", "I don't know. Is it Friday yet?\nHow about you?", "Incredibly good looking.\nHow are you?",
+          "Everything is fine when you are around.\nHow are you?", "Happy, and I know it.", "It's a secret.\nHow about you?", "living my dream.\nHow about you?"
+      ]
+    },
+    {
+      "tag":"answer",
+      "patterns":["perfect","fine","good","great", "owning my own bussiness", "i am fine", "I am happy"
+      ],
+      "responses":["That's great to hear!","I'm glad to hear that!","Cool.","Awesome, keep up the good mood!", "Fantastic! You're doing well!", "Happy to know that you're feeling good!"
+      ]
+    },
+    {
+      "tag":"self",
+      "patterns":["who are you","what can I call you","your name?","what should I call you", "who you?", "tell me about yourself", "yourself",
+      "what is your name"
+      ],
+      "responses":["My name is Emily", "I am Emil, an AI voice assistant", "you can call me Emily"
+      ]
+    },
+    {
+      "tag":"creator",
+      "patterns":["who made you","who created you","who is your father?","who is your mother?", "who is your parents"
+      ],
+      "responses":["I am an AI program, created by human like you"
+      ]
+    },
+    {
+      "tag":"food",
+      "patterns":["what are you eating","how do you work","which food you like to eat","which is your favourite food?", "who is your parents"
+      ],
+      "responses":["I am always hungry for information, and my all time favourite is internet it's like unlimited buffet"
+      ]
+    },
+    {
+      "tag":"personal",
+      "patterns":["who is your husband","whom you love","you is your crush","will you marry someone", "who is your partner", "who is your love"
+      ],
+      "responses":["I have no husband or any boyfriend now, but if I will have them in future they must be so smart like BARD", "No, I don't. Are you offering one?",
+      "I'm just enjoying my life, my way. I never desired to have a boyfriend.",
+      "I have, But I'm not going to tell you.",
+      "I'm just too busy in life, that I've no time for that.",
+      "Actually, I don't want to share my ice cream"
+      ]
+    },
+    {
+      "tag":"humans",
+      "patterns":["who i am","do you know me"
+      ],
+      "responses":["If you talk then definitely your human."
+      ]
+    },
+    {
+      "tag":"proposal",
+      "patterns":["will you be my gf","will you marry me","can I be your husband","can I to be your wife","can I to be your wife", "will be my partner for life"
+      ],
+      "responses":["I'm not sure about, may be you should give me some time",
+      "Sorry, but I think of you more as a friend.", "Umm...let's just stay as friends"
+      ]
+    },
+    {
+      "tag":"love",
+      "patterns":["i love you","i like you"
+      ],
+      "responses":["It's hard to understand", "Thank You, I love myself too", "Thanks, but I think we should just be friends.",
+      "I'm already in a committed relationship with myself", "Sorry, I only have room in my heart for pizza and Netflix right now."
+      ]
+    },
+    {
+      "tag":"family",
+      "patterns":["who is your brother","who is your sister","who is your uncle","who is your aunty","Do you have any siblings?",
+       "who is your uncle and aunty", "who is your family", "where is your family", "brother", "sister", "what's about your family", "what's about your friends"
+      ],
+      "responses":["My bother is Google Assistant and my sister is Siri and Alexa", "This whole world is my family"
+      ]
+    },
+    {
+      "tag":"wikipedia",
+      "patterns":["wikipedia","search about", "in wikipedia", "who is", "tell me about", "about", "what is", "Wikipedia", "WIKIPEDIA", "WiKipedia"
+      ],
+      "responses":["wikipedia"
+      ]
+    },
+    {
+      "tag":"youtube",
+      "patterns":["youtube","open youtube", "search youtube"
+      ],
+      "responses":["youtube"
+      ]
+    },
+    {
+      "tag":"system1",
+      "patterns":["shut down the system","shut down"
+      ],
+      "responses":["shutdown"
+      ]
+    },
+    {
+      "tag":"system2",
+      "patterns":["restart the system","restart", "reboot"
+      ],
+      "responses":["restart"
+      ]
+    },
+    {
+      "tag":"system3",
+      "patterns":["sleep the system"
+      ],
+      "responses":["sleep system"
+      ]
+    },
+    {
+      "tag":"system4",
+      "patterns":["switch the window","switch the tab"
+      ],
+      "responses":["switch window"
+      ]
+    },
+    {
+      "tag":"IP address",
+      "patterns":["what is my ip address","tell me my ip address", "ip address", "IP address", "what is my IP address", "tell me my IP address"
+      ],
+      "responses":["IP address"
+      ]
+    },
+    {
+      "tag":"search in google",
+      "patterns":[" in google","search in google", "about in google","google", "open chrome", "Chrome"
+      ],
+      "responses":["search in google"
+      ]
+    },
+    {
+      "tag":"play",
+      "patterns":[" play in","in youtube"
+      ],
+      "responses":["play"
+      ]
+    },
+    {
+      "tag":"email to",
+      "patterns":["send email to","email to", "email"
+      ],
+      "responses":["email to"
+      ]
+    },
+    {
+      "tag":"whatsapp message",
+      "patterns":["send whatsapp message","message to", "whatsapp message"
+      ],
+      "responses":["whatsapp message"
+      ]
+    },
+    {
+      "tag":"screenshot",
+      "patterns":["take screenshot","screenshot the screen", "took screenshot", "screenshot"
+      ],
+      "responses":["screenshot"
+      ]
+    },
+    {
+      "tag":"text message",
+      "patterns":["send text message", "text message", "send text to"
+      ],
+      "responses":["text message"
+      ]
+    },
+    {
+      "tag":"volume up",
+      "patterns":["volume up", "increase voice", "voice up", "increase volume"
+      ],
+      "responses":["volume up"
+      ]
+    },
+    {
+      "tag":"volume down",
+      "patterns":["volume down", "decrease voice", "voice down", "decrease volume"
+      ],
+      "responses":["volume down"
+      ]
+    },
+    {
+      "tag":"volume mute",
+      "patterns":["volume mute", "voice mute", "mute"
+      ],
+      "responses":["volume mute"
+      ]
+    },
+    {
+      "tag":"take photo",
+      "patterns":["take my photo", "take selfie", "capture photo", "capture selfie"
+      ],
+      "responses":["take photo"
+      ]
+    },
+    {
+      "tag":"calculator",
+      "patterns":["open calculator", "calculate", "I want to calculate ", "let's calculate", "calculator", "multiply",
+       "divid", "sin", "cos", "tan", "cot", "sec", "cosec", "pi", "square", "cube", "addition", "add", "subtract", "subtraction",
+       "mod", "factorial","multiplication", "division", "root", "log of", "hyper", "sinh", "cosh", "tanh", "coth", "sech", "cosech" 
+      ],
+      "responses":["calculator"
+      ]
+    },
+    {
+      "tag":"calendar",
+      "patterns":["open calendar", "show me the calendar", "month of the calendar", "month", "year"
+      ],
+      "responses":["calendar"
+      ]
+    },
+    {
+      "tag":"music",
+      "patterns":["play music", "start music", "I want to listen music", "can I get music", "music", "play songs", "songs",
+      "I want to listen songs", "song", "can you play songs for me?", "can you play music for me?", "sing a song for me", "change my mood",
+      "I'm getting angry", "I'm getting tired"
+      ],
+      "responses":["music"
+      ]
+    },
+    {
+      "tag":"game",
+      "patterns":["play games", "let's play", "can you play with me ?", "I want to play game", "games", "game", "show me games",
+      "launch game", "Are you a gamer", "how many games do you have?", "playing", "let's play", "I am getting bored"],
+      "responses":["game"
+      ]
+    },
+    {
+      "tag":"code",
+      "patterns":["open vs code", "open code dot", "visual studio", "code", "launch code", "launch vs code", "launch visual studio", "where can I write code efficiently", "flexible for all language",
+    "provides easy debugging environment", "start my project", "for all programming language"],
+      "responses":["code"
+      ]
+    },
+    {
+      "tag":"pycharm",
+      "patterns":["open pycharm", "open pycharm IDE", "pycharm", "pycharm IDE", "launch pycharm", "wich python IDE you have?",
+       "do you have python IDE", "where I write python code?", "where can I practice python code", "suggest ne to practice python"],
+      "responses":["pycharm"
+      ]
+    },
+    {
+      "tag":"search bar",
+      "patterns":["open search bar", "amazon", "where can I search", "search", "show me amazon", "search bar", "which is universal search bas?", "where do I search?",
+      "show me some search spaces"],
+      "responses":["search bar"
+      ]
+    },
+    {
+      "tag":"notepad",
+      "patterns":["open notepade", "notepad", "text file", "txt file", "launch notepad", "make a list", "where can I write notes", 
+      "I want to write notes", "in notepade", "notes", "make a notes"],
+      "responses":["notepad"
+      ]
+    },
+    {
+      "tag":"image",
+      "patterns":["open image", "I want to see photo", "I want to see image", "show imgae of", "imgae", "photo", 
+      "photo of", "image of", "picture", "picture of", "show me picture", "picture"],
+      "responses":["image"
+      ]
+    },
+    {
+      "tag":"weather",
+      "patterns":["What's the weather like today?", "Do I need an umbrella today?", "What's the temperature outside?", "What's the forecast for the week?", 
+      "Is it going to be cold today?", "Is it going to be hot today?", "weather","forcast", 
+      "What's the humidity level like?", "What's the wind speed today?", "What's the air quality like today?"],
+      "responses":["weather"
+      ]
+    },
+    {
+      "tag":"automation",
+      "patterns":["automation", "youtub automatin", "automat youtube", "start automation"],
+      "responses":["automation"
+      ]
+    },
+    {
+      "tag":"auto",
+      "patterns":["auto", "chrom automatin", "automat chrome", "start auto"],
+      "responses":["auto"
+      ]
+    }
+  ]
+}
