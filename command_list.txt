@@ -1,0 +1,26 @@
+Voice/Text Commands:-
+
+1. What is time/date/day?
+2. Search in Wikipedia
+3. Open YouTube
+4. Open Chrome
+5. Open code/VS code/Visual Studio Code
+6. Open PyCharm
+7. Open Notepad
+8. ShutDown the system
+9. Restart the system
+10. Sleep the system
+11. Switch the window
+12. Shows Ip Address
+13. Jokes
+14. Play Music/Videos
+15. Send WhatsApp messages
+16. Sends text messages
+17. Volume up/down
+18. Mute
+19. Take Photo 
+20. Calculator
+21. Play games
+22. Calendar
+23. Shows Image in chrome
+24. Shows Weather report by giving city name
