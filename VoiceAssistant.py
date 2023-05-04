@@ -93,44 +93,6 @@ def TakeCommand():
     return query
 
 
-"""
-SendEmail() function sends the our email to other email user  
-"""
-
-
-email_dict = {"nidhi": "nidhi.vyas.2711@gmail.com"}
-add_new_email = {}
-
-
-def sendEmail(to, content):
-    emvalue = str(email_dict.values())
-    file = open('confidential.txt')
-    content2 = file.read()
-    server = smtplib.SMTP('smtp.gmail.com', 587)
-    server.ehlo()
-    server.starttls()
-    server.login('nvyas2711@gmail.com', content2)
-    server.sendmail(emvalue, to, content)
-    server.close()
-
-
-"""
-To get the calander of any year and any number of month
-"""
-
-
-def Calendar():
-    print("Which year")
-    speak("Which year")
-    year = TakeCommand()
-    YEAR = int(year)
-    month_list = 12
-    print(f"Here is the calendar for every month of the year {YEAR}")
-    speak(f"Here is the calendar for every month of the year {YEAR}")
-    for i in range(1, month_list + 1):
-        cal = calendar.month(YEAR, i)
-        print(cal, end="")
-
 
 """
 To give task to our voice assistant
