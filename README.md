@@ -1,5 +1,6 @@
 # VoiceAssistant
 Voice Assistant based on Neural Network
+
 A neural network is a type of machine learning algorithm that is modeled after the structure and function of the human brain. It consists of a series of interconnected nodes or "neurons" that are arranged in layers and trained to recognize patterns in data. Neural networks can be used for a wide variety of tasks such as image recognition, natural language processing, and speech recognition.
 
 In the context of voice assistants, neural networks are used in speech recognition to convert spoken words into text that can be understood by the system. This is achieved through a process called acoustic modeling, where the neural network is trained on large amounts of speech data to learn how to recognize different sounds and phonemes.
