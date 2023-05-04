@@ -30,7 +30,7 @@ def getWeather():
     time_label.config(text="CURRENT WEATHER")
 
     # weather
-    api = f"http://api.weatherapi.com/v1/current.json?key=0d154f0d7c6642a88a3113140230205&q={city}"
+    api = f"http://api.weatherapi.com/v1/current.json?key=<YOURAPIKEY>={city}"
 
     json_data = requests.get(api).json()
     condition = json_data["current"]["condition"]["text"]
