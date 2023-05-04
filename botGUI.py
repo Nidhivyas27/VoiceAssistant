@@ -95,47 +95,7 @@ def Whatsapp(tag, command):
     minute = now.minute + 1
     msg1 = f"Emily: wait for a minute\n"
     textArea.insert(END, msg1)
-    kit.sendwhatmsg("+919925661538", str_msg, hour, minute)
-
-def wakeup():
-    global askFild, textArea, message, mic_Button
-    porcupine = None
-    pa = None
-    audio_stream = None
-    textArea.insert(END, "Ready to execute task\n")
-
-    try:
-
-        porcupine = pvporcupine.create(keywords=['computer'])
-
-        pa = pyaudio.PyAudio()
-        audio_stream = pa.open(rate=porcupine.sample_rate,
-                            channels=1,
-                            format=pyaudio.paInt16, input=True,
-                            frames_per_buffer=porcupine.frame_length)
-
-        while True:
-            pcm = audio_stream.read(porcupine.frame_length)
-            pcm = struct.unpack_from("h" * porcupine.frame_length, pcm)
-            
-            keyword_index = porcupine.process(pcm)
-            if keyword_index >= 0:
-                textArea.insert(END, "Keyword Detected\n")
-                print("Keyword Detected\n")
-                VOICE()
-                # mic_Button.invoke()
-                time.sleep(1)
-                textArea.insert(END, "Awaiting your call\n")
-
-    finally:
-        if porcupine is not None:
-            porcupine.destroy()
-
-        if audio_stream is not None:
-            audio_stream.close()
-
-        if pa is not None:
-            pa.terminate()
+    kit.sendwhatmsg("WhatsApp_Number", str_msg, hour, minute)
 
 def get_response(user_input):
     global reply, askFild
@@ -359,7 +319,7 @@ def FEEDBACK():
     def SAVE_FB():
         name = fb_add_name.get()
         comment = fb_add_comment.get("1.0", "end-1c")
-
+                
         with open("feedback.txt", "a") as f:
             f.write(f"Name: {name}\nFeedback: {comment}\n\n")
 
